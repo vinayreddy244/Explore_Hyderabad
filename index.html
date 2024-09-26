@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Explore Hyderabad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section1">
+        <div id="header">
+            <div class="logo">
+                <img id="img1" src="logo.png" alt="Logo">
+            </div>
+            <div id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="content-container">
+            <div class="content">
+                <h1 class="message">Welcome to Hyderabad</h1>
+                <div class="quote-section">
+                    <p class="quote"><strong>“Hyderabad is a city of pearls, rich in history and culture.”</strong></p>
+                    <p class="text">Let's explore Hyderabad and uncover its hidden gems!</p>
+                </div>
+
+                <div class="buttons">
+                    <button id="more">Read More</button>
+                    <button id="video-button">Play Video</button>
+                </div>
+
+                <div class="video">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/ZcqijvqDQaY" title="Hyderabad&#39;s Falaknuma Palace | It Happens Only in India | National Geographic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="images">
+                <div class="image image1">
+                    <img src="image1.jpg" alt="Image 1">
+                </div>
+                <div class="image image2">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+                <div class="image image3">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+                <div class="image image4">
+                    <img src="image4.jpg" alt="Image 4">
+                </div>
+                <div class="image image5">
+                    <img src="image5.jpg" alt="Image 5">
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <section id="explore" class="explore-section">
+        <h2 class="title">Explore Hyderabad</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="landmarks.jpg" alt="Landmarks">
+                <div class="card-content">
+                    <h3>Landmarks</h3>
+                    <p>Discover iconic structures and historical sites.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="food.jpg" alt="Cuisine">
+                <div class="card-content">
+                    <h3>Food</h3>
+                    <p>Savor the flavors of authentic Hyderabadi dishes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="culture.jpg" alt="Culture">
+                <div class="card-content">
+                    <h3>Culture</h3>
+                    <p>Experience the rich heritage and traditions.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Entertainment.jpg" alt="Entertainment">
+                <div class="card-content">
+                    <h3>Entertainment</h3>
+                    <p>Enjoy the vibrant nightlife and attractions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="user-form">
+        <h2>Share Your Experience</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="photo">Your Photo:</label>
+            <input type="file" id="photo" name="photo"  required>
+
+            <label for="story">Your Story:</label>
+            <textarea id="story" name="story" ></textarea>
+
+           <center> <button type="submit">Submit</button></center>
+        </form>
+    </div>
+
+
+    
+
+
+
+
+
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387143.0972159284!2d78.47483742219459!3d17.3850442274131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a32c4e8a2e5c20b%3A0x91e3b0247240ff52!2sHyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sus!4v1694732465908!5m2!1sen!2sus" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        document.getElementById("video-button").onclick = function() {
+            var video = document.getElementById("intro-video");
+            video.style.display = "block";
+        };
+    </script>
+
+
+</body>
+</html>
